@@ -1,11 +1,10 @@
 {
-  "name": "goat-bot-v2",
-  "version": "1.5.35",
-  "description": "A simple Bot chat messenger using personal account. Made by NTKhang.",
-  "main": "index.js",
-  "engines": {
+"engines": {
     "node": ">=20.0.0",
     "npm": ">=7.0.0"
+  },
+"scripts": {
+    "start": "node index.js"
   },
   "overrides": {
     "cheerio": {
